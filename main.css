@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* Nav Menu */
 body {
     -webkit-animation: bugfix infinite 1s;
@@ -30,62 +37,62 @@ h1, p {
     position: relative;
 }
 
-#nav ul {
-    display: none;
-    width: 100%;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
+    #nav ul {
+        display: none;
+        width: 100%;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
 
-#nav ul li a {
-    display: block;
-    padding: 1em;
-    background: rgba(69, 69, 182, 0.5);
-    color: white;
-    text-decoration: none;
-    border-right: 1px solid rgba(41, 41, 108, 0.5);
-}
+        #nav ul li a {
+            display: block;
+            padding: 1em;
+            background: rgba(69, 69, 182, 0.5);
+            color: white;
+            text-decoration: none;
+            border-right: 1px solid rgba(41, 41, 108, 0.5);
+        }
 
-#nav ul li a:hover {
-    background: rgba(55, 55, 145, 0.5);
-}
+            #nav ul li a:hover {
+                background: rgba(55, 55, 145, 0.5);
+            }
 
-#nav ul li:last-of-type a {
-    border-right: 0px;
-}
+        #nav ul li:last-of-type a {
+            border-right: 0px;
+        }
 
-#nav input.trigger {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
+    #nav input.trigger {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
 
-#nav input.trigger:checked ~ ul, #nav input.trigger:checked ~ ul li ul {
-    display: block !important;
-}
+        #nav input.trigger:checked ~ ul, #nav input.trigger:checked ~ ul li ul {
+            display: block !important;
+        }
 
-#nav label {
-    position: relative;
-    display: block;
-    min-height: 2em;
-    padding: 0.45em;
-    font-size: 1.1em;
-    margin: 0;
-    cursor: pointer;
-    background: rgba(69, 69, 182, 0.5);
-    line-height: 2em;
-    color: #fff;
-}
+    #nav label {
+        position: relative;
+        display: block;
+        min-height: 2em;
+        padding: 0.45em;
+        font-size: 1.1em;
+        margin: 0;
+        cursor: pointer;
+        background: rgba(69, 69, 182, 0.5);
+        line-height: 2em;
+        color: #fff;
+    }
 
-#nav label:after {
-    position: absolute;
-    right: 1em;
-    top: 0.2em;
-    content: "\2261";
-    font-size: 1.8em;
-    color: white;
-}
+        #nav label:after {
+            position: absolute;
+            right: 1em;
+            top: 0.2em;
+            content: "\2261";
+            font-size: 1.8em;
+            color: white;
+        }
 
 b {
     font-size: 1.5rem;
@@ -96,3 +103,68 @@ span {
 }
 
 /* Header */
+
+header {
+    height: 80vh;
+    background-color: orange;
+    background-image: url(https://s14.postimg.cc/9cvumj6b5/bali-hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-ctn {
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.main-title h1 {
+    font-size: 2.25rem;
+    color: white;
+}
+
+.main-title a {
+    border-radius: 30px;
+    background: #4CB648;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 14px 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: .9;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+/* Class Section */
+
+.class-schedule {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.class-schedule h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+}
+
+.class-choice img {
+    width: 40px;
+}
