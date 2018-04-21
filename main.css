@@ -22,6 +22,10 @@ body {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Nav Menu */
 body {
     -webkit-animation: bugfix infinite 1s;
@@ -213,3 +217,78 @@ display: block;
 
 /* Advertise Section */
 
+.advertise {
+    height: 450px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(https://s14.postimg.cc/pwymtitv5/bali-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.advertise h1, .advertise p {
+    color: #fff;
+}
+
+/* Trainers Section */
+
+
+/* Advertise 2 Section */
+
+.advertise2 {
+    height: 450px;
+    background-image: url(./img/advertise3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advertise2 .promo-offer {
+    height: 100%;
+    width: 50%;
+    margin-left: 7%;
+    padding: 40px;
+    background: #222831;
+}
+
+.promo-offer h1, .promo-offer p, .promo-offer a {
+    color: #fff;
+}
+
+.advertise2 .promo-offer h1 {
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.promo-offer p {
+    margin-bottom: 20px;
+}
+
+.advertise2 .promo-offer a {
+    background: #4CB648;
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent;
+    display: inline-block;
+    letter-spacing: 2px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    line-height: 1.42857;
+    border-radius: 4px;
+}
