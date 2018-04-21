@@ -10,6 +10,7 @@
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
 }
 
 /* Nav Menu */
@@ -165,6 +166,27 @@ header {
     font-weight: 900;
 }
 
+.class-schedule p {
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    color: #848484;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.class-ctn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class-schedule .class-choice {
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
 .class-choice img {
     width: 40px;
+    margin-bottom: 30px;
+    display: inline-block;
 }
+
