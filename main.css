@@ -242,7 +242,7 @@ display: block;
 
 .advertise2 {
     height: 450px;
-    background-image: url(./img/advertise3.png);
+    background-image: url(https://s14.postimg.cc/otj3vh6dd/advertise3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +250,7 @@ display: block;
 
 .advertise2 .promo-offer {
     height: 100%;
-    width: 50%;
+    width: 152px;
     margin-left: 7%;
     padding: 40px;
     background: #222831;
