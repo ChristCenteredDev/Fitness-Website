@@ -33,6 +33,7 @@ body {
     background: #fff;
 }
 
+/* needed for checkbox hack */
 @-webkit-keyframes bugfix {
     from {
         padding: 0;
@@ -42,7 +43,7 @@ body {
         padding: 0;
     }
 }
-/* needed for checkbox hack */
+
 h1, p {
     color: #000;
 }
