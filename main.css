@@ -293,3 +293,37 @@ display: block;
     line-height: 1.42857;
     border-radius: 4px;
 }
+
+/* Pricing Section */
+
+.pricing-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .container h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+    color: #000;
+}
+
+.pricing-section .container p {
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    color: #848484;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.pricing-section .price-plans .plan {
+    width: 94%;
+    max-width: 473px;
+    margin: 0 auto 30px auto;
+    background-color: #fff;
+    padding: 30px;
+}
+
