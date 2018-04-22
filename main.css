@@ -169,6 +169,15 @@ header {
     line-height: 1.42857;
 }
 
+.main-title a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: .9;
+    border: 1px solid transparent;
+}
+
 /* Class Section */
 
 .class-schedule {
@@ -297,6 +306,15 @@ display: block;
     font-size: 0.95rem;
     line-height: 1.42857;
     border-radius: 4px;
+}
+
+.advertise2 .promo-offer a:hover {
+    background: #000;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: .9;
+    border: 1px solid transparent;
 }
 
 /* Pricing Section */
