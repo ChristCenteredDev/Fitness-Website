@@ -26,6 +26,11 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
 /* Nav Menu */
 body {
     -webkit-animation: bugfix infinite 1s;
@@ -327,3 +332,60 @@ display: block;
     padding: 30px;
 }
 
+.plan h2 {
+    font-size: 50px !important;
+    color: #6d6d6d !important;
+    line-height: 50px;
+    margin-bottom: 0px !important;
+}
+
+.pricing-section .plan > span {
+    margin: 0 0 50px;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #888f94;
+}
+
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.pricing-section .plan a.active1 {
+    background-color: rgb(76, 182, 72);
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.pricing-section .plan a {
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+}
+
+.pricing-section .plan a:hover {
+    background-color: #000;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+
+.pricing-section .plan {
+    transition: all 0.5s ease;
+}
+
+.pricing-section .plan:hover {
+    box-shadow: 0 10px 15px 0 #000;
+    transition: all 0.5s ease;
+}
+
+/* Footer */
