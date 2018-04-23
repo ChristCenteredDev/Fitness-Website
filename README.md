@@ -4,7 +4,8 @@
 *A Fictional Fitness Company Website*<br>
 
 ### Live Preview:
-Codepen (https://codepen.io/ChristCenteredDev/pen/vjOQQY?editors=1100)
+Codepen (https://codepen.io/ChristCenteredDev/pen/vjOQQY?editors=1100)<br>
+*Still under construction*
 
 ### Technologies:
 - Mobile First
