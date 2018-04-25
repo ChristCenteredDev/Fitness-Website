@@ -31,6 +31,15 @@ ul {
     padding: 0 !important;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* Nav Menu */
 body {
     -webkit-animation: bugfix infinite 1s;
@@ -252,6 +261,73 @@ display: block;
 
 /* Trainers Section */
 
+.trainers-section {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.trainers-section .container h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.trainers-section .container p {
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    color: #848484;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Trainers Portraits */
+
+.trainers-ctn .trainer {
+    width: 30%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.trainers-ctn .trainer1, .trainers-ctn .trainer2, .trainers-ctn .trainer3, .trainers-ctn .trainer4, .trainers-ctn .trainer5, .trainers-ctn .trainer6 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.trainers-ctn .trainer1 {
+    background-image: url(./img/trainer1.jpg);
+}
+
+.trainers-ctn .trainer2 {
+    background-image: url(./img/trainer2.jpg);
+}
+
+.trainers-ctn .trainer3 {
+    background-image: url(./img/trainer3.jpg);
+}
+
+.trainers-ctn .trainer4 {
+    background-image: url(./img/trainer4.jpg);
+}
+
+.trainers-ctn .trainer5 {
+    background-image: url(./img/trainer5.jpg);
+}
+
+.trainers-ctn .trainer6 {
+    background-image: url(./img/trainer6.jpg);
+}
+
+.trainers-section {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 /* Advertise 2 Section */
 
@@ -407,3 +483,35 @@ ul, menu, dir {
 }
 
 /* Footer */
+
+footer {
+    background: #222831;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    color: rgba(255,255,255,.3);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+footer a:visited {
+    color: #e9e9e9;
+}
+
+footer a {
+    color: #e9e9e9;
+}
+
+footer .container > div > i {
+    color: rgba(255,255,255,.5);
+    font-size: 26px !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .container > div > i:hover {
+    color: rgba(255,255,255,.9);
+}
