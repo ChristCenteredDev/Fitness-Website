@@ -299,6 +299,7 @@ display: block;
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
+    position: relative;  /* For the Overlay Effect */
 }
 
 .trainers-ctn .trainer1 {
@@ -307,27 +308,27 @@ display: block;
 }
 
 .trainers-ctn .trainer2 {
-    background-image: url(./img/trainer2.jpg);
+    background-image: url(./img/trainer6.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer3 {
-    background-image: url(./img/trainer3.jpg);
+    background-image: url(./img/trainer2.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer4 {
-    background-image: url(./img/trainer4.jpg);
-    margin: 0 auto 30px auto;
-}
-
-.trainers-ctn .trainer5 {
     background-image: url(./img/trainer5.jpg);
     margin: 0 auto 30px auto;
 }
 
+.trainers-ctn .trainer5 {
+    background-image: url(./img/trainer3.jpg);
+    margin: 0 auto 30px auto;
+}
+
 .trainers-ctn .trainer6 {
-    background-image: url(./img/trainer6.jpg);
+    background-image: url(./img/trainer4.jpg);
     margin: 0 auto 30px auto;
 }
 
@@ -335,6 +336,57 @@ display: block;
     text-align: center;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+/* Trainers Overlay */
+
+.trainer {
+    overflow: hidden;
+}
+
+.trainer-details {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.trainer .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 800px;
+    transition: all 0.5s ease;
+}
+
+.trainer .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 80px;
+    transition: all 0.5s ease;
+}
+
+.overlay .trainer-details h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.overlay .trainer-details span {
+    color: #fff;
+}
+
+.overlay .trainer-details i {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Advertise 2 Section */
