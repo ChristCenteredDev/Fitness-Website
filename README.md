@@ -5,7 +5,7 @@
 
 ### Live Preview:
 Codepen (https://codepen.io/ChristCenteredDev/pen/vjOQQY?editors=1100)<br>
-*Still under construction*
+*Completed*
 
 ### Technologies:
 - Mobile First
