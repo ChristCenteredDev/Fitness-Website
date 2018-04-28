@@ -10,6 +10,6 @@ Codepen (https://codepen.io/ChristCenteredDev/pen/yjeEVZ)<br>
 ### Technologies:
 - Mobile First
 - Responsive Design
-- HTML / CSS / Flexbox
+- HTML / CSS / Flexbox / jQuery
 - Custom SVG's
 - Font Awesome
