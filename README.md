@@ -4,7 +4,7 @@
 *A Fictional Fitness Company Website*<br>
 
 ### Live Preview:
-Codepen (https://codepen.io/ChristCenteredDev/pen/vjOQQY?editors=1100)<br>
+Codepen (https://codepen.io/ChristCenteredDev/pen/yjeEVZ)<br>
 *Completed*
 
 ### Technologies:
