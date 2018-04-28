@@ -41,87 +41,91 @@ ul {
 }
 
 /* Nav Menu */
-body {
-    -webkit-animation: bugfix infinite 1s;
+@media (max-width: 549px) {
+    
+    body {
+        -webkit-animation: bugfix infinite 1s;
+        /* needed for checkbox hack */
+        background: #fff;
+    }
+
     /* needed for checkbox hack */
-    background: #fff;
-}
+    @-webkit-keyframes bugfix {
+        from {
+            padding: 0;
+        }
 
-/* needed for checkbox hack */
-@-webkit-keyframes bugfix {
-    from {
-        padding: 0;
+        to {
+            padding: 0;
+        }
     }
 
-    to {
-        padding: 0;
+    h1, p {
+        color: #000;
     }
-}
 
-h1, p {
-    color: #000;
-}
+    #nav {
+        position: relative;
+    }
 
-#nav {
-    position: relative;
-}
+    #nav ul {
+        display: none;
+        width: 100%;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
 
-#nav ul {
-    display: none;
-    width: 100%;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
+    #nav ul li a {
+        display: block;
+        padding: 1em;
+        background: rgba(69, 69, 182, 0.5);
+        color: white;
+        text-decoration: none;
+        border-right: 1px solid rgba(41, 41, 108, 0.5);
+    }
 
-#nav ul li a {
-    display: block;
-    padding: 1em;
-    background: rgba(69, 69, 182, 0.5);
-    color: white;
-    text-decoration: none;
-    border-right: 1px solid rgba(41, 41, 108, 0.5);
-}
+    #nav ul li a:hover {
+        background: rgba(55, 55, 145, 0.5);
+    }
 
-#nav ul li a:hover {
-    background: rgba(55, 55, 145, 0.5);
-}
+    #nav ul li:last-of-type a {
+        border-right: 0px;
+    }
 
-#nav ul li:last-of-type a {
-    border-right: 0px;
-}
+    #nav input.trigger {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
 
-#nav input.trigger {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
+    #nav input.trigger:checked ~ ul, #nav input.trigger:checked ~ ul li ul {
+        display: block !important;
+    }
 
-#nav input.trigger:checked ~ ul, #nav input.trigger:checked ~ ul li ul {
-    display: block !important;
-}
+    #nav label {
+        position: relative;
+        display: block;
+        min-height: 2em;
+        padding: 0.45em;
+        font-size: 1.1em;
+        margin: 0;
+        cursor: pointer;
+        background: rgba(69, 69, 182, 0.5);
+        line-height: 2em;
+        color: #fff;
+    }
 
-#nav label {
-    position: relative;
-    display: block;
-    min-height: 2em;
-    padding: 0.45em;
-    font-size: 1.1em;
-    margin: 0;
-    cursor: pointer;
-    background: rgba(69, 69, 182, 0.5);
-    line-height: 2em;
-    color: #fff;
-}
+    #nav label:after {
+        position: absolute;
+        right: 1em;
+        top: 0.2em;
+        content: "\2261";
+        font-size: 1.8em;
+        color: white;
+    }
 
-#nav label:after {
-    position: absolute;
-    right: 1em;
-    top: 0.2em;
-    content: "\2261";
-    font-size: 1.8em;
-    color: white;
-}
+}  /* Media Query to contain the Nav Menu Bar */
 
 b {
     font-size: 1.5rem;
@@ -303,32 +307,32 @@ display: block;
 }
 
 .trainers-ctn .trainer1 {
-    background-image: url(./img/trainer1.jpg);
+    background-image: url(https://s14.postimg.cc/6o6753ojl/trainer1.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer2 {
-    background-image: url(./img/trainer6.jpg);
+    background-image: url(https://s14.postimg.cc/46ufxuk2p/trainer6.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer3 {
-    background-image: url(./img/trainer2.jpg);
+    background-image: url(https://s14.postimg.cc/z11ovlcup/trainer2.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer4 {
-    background-image: url(./img/trainer5.jpg);
+    background-image: url(https://s14.postimg.cc/l8n9ze929/trainer5.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer5 {
-    background-image: url(./img/trainer3.jpg);
+    background-image: url(https://s14.postimg.cc/wxr9ne2lt/trainer3.jpg);
     margin: 0 auto 30px auto;
 }
 
 .trainers-ctn .trainer6 {
-    background-image: url(./img/trainer4.jpg);
+    background-image: url(https://s14.postimg.cc/altgu0ycx/trainer4.jpg);
     margin: 0 auto 30px auto;
 }
 

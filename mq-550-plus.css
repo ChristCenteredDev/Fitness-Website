@@ -1,0 +1,56 @@
+
+/* Nav Bar */
+
+.nav-ctn {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background: rgba(69, 69, 182, 0.5);
+}
+
+.trigger {
+    display: none;
+}
+
+b {
+    color: #fff;
+}
+
+.nav-ctn ul li a {
+    padding: 0px 6px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+.nav-ctn ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-ctn ul li {
+    display: inline-block;
+}
+
+.nav-ctn ul {
+    margin: 0px;
+}
+
+/* Header Section */
+
+header {
+    height: 85vh;
+}
+
+/* Trainers Section */
+
+.trainers-ctn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainers-ctn .trainer {
+    width: 45%;
+    max-width: 342px;
+}
