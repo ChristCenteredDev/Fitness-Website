@@ -8,6 +8,21 @@
 
 /* Nav Section */
 
+.nav-ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+    background: none;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    background: rgba(69, 69, 182, 0.5) !important;
+}
 
 
 /* Header Section */
