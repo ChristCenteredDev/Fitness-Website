@@ -1,0 +1,41 @@
+
+/* Global */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Nav Section */
+
+
+
+/* Header Section */
+
+header {
+    height: 90vh;
+}
+
+/* Class Section */
+
+.class-schedule .class-choice {
+    width: 22.5%;
+}
+
+/* Trainers Section */
+
+.trainers-ctn .trainer {
+    width: 30%;
+    max-width: 342px;
+}
+
+/* Pricing Section */
+
+.price-plans {
+    display: flex;
+}
+
+.pricing-section .price-plans .plan {
+    width: 30%;
+    max-width: 473px;
+}
