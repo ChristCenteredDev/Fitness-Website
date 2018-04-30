@@ -533,6 +533,7 @@ ul, menu, dir {
     border-radius: 4px;
     padding: 10px 20px;
     transition: all 0.5s ease;
+    color: #848484;
 }
 
 .pricing-section .plan a:hover {
